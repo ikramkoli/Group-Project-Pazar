@@ -3,15 +3,15 @@ import Form from 'react-bootstrap/Form';
 import Navbar from 'react-bootstrap/Navbar';
 import image from "../image/pazar.png"
 import image1 from "../image/account.png"
-import image2 from "../image/checkout.png"
+import image2 from "../image/checkout1.png"
 import {Col , Row} from 'react-bootstrap';
 
 function NavScrollExample() {
   return (
-    <Navbar bg="dark" expand="lg">
+    <Navbar className='py-3' bg="dark" expand="lg">
             <Col sm={4}>
-                <Navbar.Brand href="#"><img src={image} width="200"
-              height="70"
+                <Navbar.Brand href="#"><img src={image} width="500"
+              height="100"
               className="d-inline-block align-top"
               alt="gambar"/></Navbar.Brand>
             </Col>
